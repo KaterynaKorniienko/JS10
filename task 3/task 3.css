@@ -1,0 +1,29 @@
+/* body{
+  background-color: aquamarine;
+} */
+.timer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  background-color: aqua;
+}
+
+.field {
+  flex-basis: 200;
+  font-size: 24px;
+  color: green;
+}
+
+.value {
+  padding: 15px;
+  border-radius: 3px;
+  background: #78c7d4;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+  color: aqua;
+}
